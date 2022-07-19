@@ -74,7 +74,7 @@ BY- Aniket Sharma"""
     
 def check_intr():
     try:
-        requests.get("https://motherfuckingwebsite.com")
+        requests.get("https://termux.com")
     except Exception:
         bann_text()
         mesgdcrt.FailureMessage("Poor internet connection detected")
